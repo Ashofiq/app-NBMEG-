@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".SignInActivity"
+    android:background="@drawable/loginbg">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        >
+
+
+        <EditText
+            android:id="@+id/userNameEditTextId"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="username"
+            android:autoSizeMaxTextSize="25dp"
+            android:background="#f5f5f0"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#1abc9c"-->
+            <!--android:textSize="20sp"-->
+            <!--android:text="Password :"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <EditText
+            android:id="@+id/passWordEditTextId"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f5f5f0"
+            android:hint="Password"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/signInButtonId"
+            android:layout_margin="10dp"
+            android:textColor="#fbfbfb"
+            android:background="#1abc9c"
+            android:text="SignIn"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/signUpHereButtonId"
+            android:text="SignUp"
+            android:textColor="#fbfbfb"
+            android:background="#1abc9c"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

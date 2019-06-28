@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainNavActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_weight="1.5"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="28sp"
+            android:text="@string/nija_boler_moto_akta_golpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-condensed" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:hint="Enter Your text"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_for_search"
+            android:layout_weight="1"
+            android:layout_width="280dp"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:background="@color/colorBackground"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:text="Search"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="150dp">
+
+            <Button
+                android:onClick="btnbloodid"
+                android:id="@+id/btnProfileId"
+                android:drawableTop="@drawable/profile"
+                android:text="Blood"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:height="100dp"
+                />
+
+            <Button
+                android:onClick="btnAlbumId"
+                android:id="@+id/btnAlbumId"
+                android:drawableTop="@drawable/image"
+                android:text="Album"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginLeft="7dp"
+                android:height="100dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp">
+
+            <Button
+                android:onClick="btnAboutId"
+                android:id="@+id/btnAboutId"
+                android:drawableTop="@drawable/textt"
+                android:text="About"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:background="#ffffff"
+                android:height="100dp"/>
+
+            <Button
+                android:onClick="btnQuoteId"
+                android:id="@+id/btnQuoteId"
+                android:drawableTop="@drawable/quote"
+                android:text="Content"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginLeft="7dp"
+                android:height="100dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp">
+
+            <Button
+                android:onClick="entid"
+                android:id="@+id/entid"
+                android:drawableTop="@drawable/review"
+                android:text="Entrepreneur List"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:height="100dp"/>
+            <Button
+                android:onClick="regid"
+                android:id="@+id/btnNotificationId"
+                android:drawableTop="@drawable/notification"
+                android:text="Registration"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:background="#ffffff"
+                android:height="100dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

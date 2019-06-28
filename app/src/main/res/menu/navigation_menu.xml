@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"
+        android:background="#baeeef"
+        android:scaleType="centerCrop">
+
+        <item
+            android:title="video"
+            android:id="@+id/videoId"
+            android:gravity="center"
+            android:icon="@drawable/ic_ondemand_video_black_24dp"
+
+            />
+
+        <item
+            android:title="Facebook"
+            android:id="@+id/starredId"
+            android:gravity="center"
+            android:icon="@drawable/facebook"
+
+            />
+        <item
+            android:title="YouTube"
+            android:id="@+id/sentEmailId"
+            android:layout_gravity="center"
+            android:icon="@drawable/ic_youtube"
+            />
+
+        <item
+            android:title="About Us"
+            android:id="@+id/aboutUId"
+            android:layout_gravity="center"
+            android:icon="@drawable/ic_info_black_24dp"
+            />
+        <item
+            android:title="Exit"
+            android:id="@+id/exitId"
+            android:layout_gravity="center"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            />
+    </group>
+
+
+
+</menu>

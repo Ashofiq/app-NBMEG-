@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuoteActivity"
+    android:background="@drawable/homebg">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="@string/nija_boler_moto_akta_golpo"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Quote"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#ffffff"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q5"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q6"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/q7"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="155dp" />-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="বিজনেস আপনার মুল্ধন আপনার, আমরা আপনাকে স্বপ্ন দেখাব ও কৌশল শিখিয়ে দিব।
+চাকরী করবো না চাকরী দেব – BE UR BOSS
+জীবনে বলার মত একটা গল্প থাকা দরকার।"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

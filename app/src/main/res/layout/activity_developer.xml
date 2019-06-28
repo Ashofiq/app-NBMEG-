@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".developer"
+    android:background="@drawable/homebg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/nija_boler_moto_akta_golpo"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="37dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="150dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="146dp">
+        <!--yusuf-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="3dp">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:padding="10dp"
+                android:src="@drawable/yusuf" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : Shah Yusuf "
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: 01981-246040"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District: Netrakona"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood: A+"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/yusuf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="yusuf"
+                    android:text="More info?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--shofiq-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="3dp">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:padding="10dp"
+                android:src="@drawable/shofiq" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : Ahmad shofiq"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: 01767-404822"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District: pabna"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood: A+"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/shofiq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="shofiq"
+                    android:text="More info?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--kaiyum-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="3dp">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:padding="10dp"
+                android:src="@drawable/kaiyum" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : MD Kaiuum Khan"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: 01731-532011"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District: Vhola"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood: A+"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/kaiyum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="kaiyum"
+                    android:text="More info?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--rony-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="3dp">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:padding="10dp"
+                android:src="@drawable/rony" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : Syed Ashib Zaman "
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: "
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District: Magura"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood: O+"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/rony"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rony"
+                    android:text="More info?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

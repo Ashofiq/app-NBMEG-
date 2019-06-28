@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.h.shakawat.yourishere">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/iconlogo"
+        android:label="@string/nija_boler_moto_akta_golpo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".AlbumActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".QuoteActivity" />
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".members" />
+        <activity android:name=".registration" />
+        <activity android:name=".developer" />
+        <activity android:name=".fullscreen" />
+        <activity
+            android:name=".content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".blood" />
+        <activity
+            android:name=".MainNavActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".video" />
+        <activity android:name=".feedback" />
+        <activity
+            android:name=".entrepreneur_list"
+            android:label="@string/title_activity_entrepreneur_list"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlbumActivity"
+    android:background="@drawable/homebg">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="@string/nija_boler_moto_akta_golpo"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:onClick="click"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p1"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"/>
+
+            <ImageView
+                android:onClick="click1"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p2"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <ImageView
+                android:onClick="click2"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p3"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <ImageView
+                android:onClick="click3"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p4"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <ImageView
+                android:onClick="click4"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p5"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <ImageView
+                android:onClick="click5"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p6"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+
+            <ImageView
+                android:onClick="click6"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p7"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <ImageView
+                android:onClick="click7"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/p8"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
